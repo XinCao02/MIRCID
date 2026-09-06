@@ -1,0 +1,17 @@
+{
+  "input_features": 977,
+  "hidden_features_in_training_script": 4096,
+  "hidden_features_in_aligned_pathway_checkpoint": 8192,
+  "output_features": 414,
+  "active_residual_blocks": 3,
+  "serialized_residual_blocks": 7,
+  "dropout": 0.35,
+  "batch_size": 64,
+  "epochs": 2500,
+  "optimizer": "SGD",
+  "learning_rate": 0.4,
+  "weight_decay": 0.0002,
+  "scheduler": "CosineAnnealingLR",
+  "loss": "MSELoss",
+  "provenance": "The manuscript/training script specifies 4096, whereas the checkpoint recorded in aligned_mirna_provenance.json has 8192 hidden units. Both portable artifacts are staged separately; resolve which generated the reported HubmiR benchmark before publication."
+}

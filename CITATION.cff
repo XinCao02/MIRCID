@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use MIRCID, please cite the associated article and software release."
+title: "MIRCID: Inferred miRNAs Drive Cross-Task Improvements in Drug Mechanistic Modeling"
+type: software
+version: 0.1.0
+date-released: 2026-09-06
+authors:
+  - given-names: Xin
+    family-names: Cao
+  - given-names: Yigang
+    family-names: Chen
+  - given-names: Jiatong
+    family-names: Xu
+  - given-names: Ziyue
+    family-names: Zhang
+  - given-names: Xiang
+    family-names: Cheng
+  - given-names: Shenyu
+    family-names: Wang
+  - given-names: Yangyi
+    family-names: Zhang
+  - given-names: Xiaoxuan
+    family-names: Cai
+  - given-names: Shidong
+    family-names: Cui
+  - given-names: Zihao
+    family-names: Zhu
+  - given-names: Xiang
+    family-names: Ji
+  - given-names: Hsi-Yuan
+    family-names: Huang
+  - given-names: Yang-Chi-Dung
+    family-names: Lin
+  - given-names: Hsien-Da
+    family-names: Huang
+    email: huanghsienda@cuhk.edu.cn
+

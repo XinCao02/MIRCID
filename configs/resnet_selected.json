@@ -1,0 +1,17 @@
+{
+  "selection_rule": "Highest mean validation macro-F1 across the three frozen tuning seeds; test data were not passed to tuning.",
+  "selected_round": 10,
+  "mean_validation_macro_f1": 0.6946134670520981,
+  "mean_validation_accuracy": 0.7686274509803921,
+  "config": {
+    "hidden": 256,
+    "blocks": 3,
+    "dropout": 0.3,
+    "batch_size": 64,
+    "max_epochs": 160,
+    "patience": 24,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.001
+  }
+}
+

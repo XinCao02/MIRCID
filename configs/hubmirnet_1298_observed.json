@@ -1,0 +1,13 @@
+{
+  "status": "historical configuration requiring manuscript reconciliation",
+  "input_features": 977,
+  "hidden_features": 16750,
+  "output_features": 1298,
+  "dropout": 0.24,
+  "epochs": 3000,
+  "learning_rate": 0.04,
+  "weight_decay": 0.0003,
+  "source": "src/mircid/hubmir/legacy/legacy_train_1298.py",
+  "warning": "These observed settings differ from the 414-output run; do not claim that only output dimensionality changed until the exact run is recovered."
+}
+
