@@ -7,7 +7,7 @@ This repositry is the code release for the paper "**MIRCID**: Inferred **miR**NA
 ```text
 MIRCID/
 ├── configs/                 # frozen model and experiment configurations
-├── src/mircid/
+├── src/
 │   ├── hubmir/              # HubmiRNet model, inference and historical trainers
 │   ├── tfa/                 # TFA benchmark utilities and TIGER implementation
 │   ├── pathway/             # pathway benchmark, controls, CKA/CCA and rescue
