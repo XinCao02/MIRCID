@@ -1,6 +1,6 @@
 # MIRCID
 
-MIRCID is the code release for **Inferred miRNAs Drive Cross-Task Improvements in Drug Mechanistic Modeling**. It contains the core HubmiRNet, transcription-factor activity (TFA), pathway-classification, feature-analysis, rescue-analysis and drug mechanism-of-action (MoA) code. Plotting code is isolated in `figures/`; all distributable data and model artifacts live in the sibling `MIRCID_dataset/` archive.
+This repositry is the code release for the paper "**MIRCID**: Inferred **miR**NAs Drive **C**ross-Task **I**mprovements in **D**rug Mechanistic Modeling". It contains the core HubmiRNet, transcription-factor activity (TFA), pathway-classification, feature-analysis, rescue-analysis and drug mechanism-of-action (MoA) code. Plotting code is isolated in `figures/`; all distributable data and model artifacts live in the sibling `MIRCID_dataset/` archive.
 
 ## Repository layout
 
