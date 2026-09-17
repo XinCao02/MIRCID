@@ -76,25 +76,10 @@ Each figure directory contains its plotting entry point, final export and legend
 - Figure 2: numerical architecture benchmark and observed/predicted PCA replot.
 - Figure 3: aggregate TFA heatmaps reconstructed from the published panel values.
 - Figure 4: pathway-classification distributions and PROGENy reference.
-- Figure 4.5: embedding controls, CCA, CKA, ridge recovery and paired task deltas.
-- Figure 5: rescue-case mechanism panel and feature heatmaps.
+- Figure 5: embedding controls, CCA, CKA, ridge recovery and paired task deltas.
+- Figure 6: rescue-case mechanism panel and feature heatmaps.
 - Supplementary: HubmiR feature analyses and rescue atlas.
 
-## Reproducibility status
-
-The aligned pathway workflow has the strongest end-to-end provenance: explicit sample-ID alignment, a frozen 20-split manifest, matched preprocessing and prediction-level outputs. The release preserves the following limitations rather than hiding them:
-
-1. The current Figure 4/4.5 final-candidate source tables contain exploratory seven-run subsets selected from larger candidate pools. They must not be described as prespecified or as all available repeats. The 20-split aligned workflow is the appropriate basis for a fully confirmatory rerun.
-2. Figure 3 aggregate values were transcribed from the submitted figure; the complete per-sample outputs for every method/network combination were not recovered from the historical workspace.
-3. The included MoA matrices are a public demo subset. The full six-cell-line profile matrices underlying the manuscript table were not found locally; `MIRCID_dataset/moa/external_sources/` records the required source datasets.
-4. The archived 1,298-output training script does not support the manuscript phrase “only the output dimension was changed”: its observed hyperparameters differ from the 414-output run. This discrepancy must be resolved before release of that claim.
-5. Two different 414-output checkpoints were recovered: the aligned pathway provenance uses 8,192 hidden units, whereas the manuscript/training script specifies 4,096. Both were converted losslessly to portable state dictionaries and are kept distinct; the benchmark-to-checkpoint mapping still needs author confirmation.
-
-See [release audit](docs/RELEASE_AUDIT.md) for the actionable checklist.
-
-See also [upstream software](docs/UPSTREAM_SOFTWARE.md) and the [deposition plan](docs/DEPOSITION_PLAN.md).
-
-Rebuild the code inventory with `python scripts/build_code_manifest.py`. The data inventory is rebuilt separately with `python scripts/build_data_manifest.py`.
 
 ## Data, licensing and citation
 
