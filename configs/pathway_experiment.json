@@ -1,6 +1,5 @@
 {
   "run_id": "aligned_formal_v1",
-  "split_seeds": [7, 14, 21, 28, 35, 42, 49, 56, 63, 70, 77, 84, 91, 98, 105, 112, 119, 126, 133, 140],
   "split": {"train": 0.70, "validation": 0.15, "test": 0.15},
   "feature_spaces": {
     "Gene": ["gene"],
