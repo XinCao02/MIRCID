@@ -111,8 +111,8 @@ def main() -> None:
             atomic_write_csv(pd.DataFrame(prediction_records), run_dir / "predictions.csv.gz")
             write_json(done, {"status": "complete", "model": args.model, "feature_space": name, "seed": seed,
                               "representation_file": str(path.relative_to(ROOT)), "scaler_fit_partition": "train",
-                              "split_manifest": "pathway/splits/frozen_20_splits.csv",
-                              "test_used_for_selection": False,
+                              "split_manifest": "pathway/splits/frozen_splits.csv",
+                              "test_used": False,
                               "config": cfg["models"][args.model] if args.model in {"rf", "svm"} else selected,
                               "details": details})
             print(f"DONE {args.model} {name} seed={seed}: test macro-F1={metrics(y_test, p_test)['macro_f1']:.4f}")
