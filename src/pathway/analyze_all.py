@@ -195,7 +195,7 @@ def progeny_audit() -> None:
 
 def main() -> None:
     main = main_metrics(); embedding_analysis(main); complementarity_analysis(main); rescue_statistics(); progeny_audit()
-    write_json(ROOT/"validation"/"analysis_manifest.json",{"status":"complete","bootstrap_iterations":10000,"paired_test":"exact two-sided sign-flip","effect_size":"paired Cohen dz","multiple_testing":"Holm within declared model/metric or model/pathway family","statistical_unit":"frozen split seed (n=20)","test_seed_cherry_picking":False})
+    write_json(ROOT/"validation"/"analysis_manifest.json",{"status":"complete","bootstrap_iterations":10000,"paired_test":"exact two-sided sign-flip","effect_size":"paired Cohen dz","multiple_testing":"Holm within declared model/metric or model/pathway family","statistical_unit":"frozen split seed (n=20)"})
     print("PASS: all summaries, paired statistics, complementarity and PROGENy audits written")
 
 
