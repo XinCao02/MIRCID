@@ -19,7 +19,7 @@ def analyze_model(model: str, predictions: pd.DataFrame) -> dict[str, pd.DataFra
     hub = test[test["feature_space"] == "Gene + HubmiR"].copy()
     keys = ["split_seed", "sample_id"]
     merged = gene.merge(hub, on=keys, suffixes=("_gene", "_hub"), validate="one_to_one")
-    if len(merged) != 20 * 85:
+    if len(merged) != 100*17:
         raise ValueError(f"Expected 1,700 paired test observations for {model}; got {len(merged)}")
     if not np.array_equal(merged.true_label_gene, merged.true_label_hub):
         raise ValueError("Truth mismatch")
