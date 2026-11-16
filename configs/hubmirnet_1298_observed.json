@@ -1,7 +1,7 @@
 {
   "status": "historical configuration requiring manuscript reconciliation",
   "input_features": 977,
-  "hidden_features": 16750,
+  "hidden_features": 4096,
   "output_features": 1298,
   "dropout": 0.24,
   "epochs": 3000,
